@@ -1,13 +1,18 @@
 Rails.application.routes.draw do
 
-  resources :students
+  devise_for :students
   resources :profiles
   resources :reviews
   resources :posts
 
   devise_for :teachers
 
-  devise_for :students#       post 'toggle'
+  
+  root 'home#top'
+  get "/students" => "student#index" 
+  get "/teachers" => "teacher#index" 
+
+  #       post 'toggle'
   #     end
   #
   #     collection do
@@ -50,7 +55,7 @@ Rails.application.routes.draw do
   #   resources :products do
   #     member do
   #       get 'short'
-  toggleable do
+  #toggleable do
   #     post 'toggle'
   #   end
   #   resources :posts, concerns: :toggleable

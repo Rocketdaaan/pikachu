@@ -10,7 +10,7 @@ class CreateProfiles < ActiveRecord::Migration
       t.integer :salary
       t.string :performance
       t.string :career
-      t.body :comment
+      t.text :comment
 
       t.timestamps null: false
     end
