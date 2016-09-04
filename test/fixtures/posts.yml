@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  body: MyText
+  image: MyString
+  sex: MyString
+  skill: MyString
+  area: MyString
+  teacher_id: MyString
+
+two:
+  body: MyText
+  image: MyString
+  sex: MyString
+  skill: MyString
+  area: MyString
+  teacher_id: MyString
