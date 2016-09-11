@@ -1,0 +1,2 @@
+json.extract! teacher_profile, :id, :image, :age, :from, :sex, :area, :skill, :salary, :jisseki, :keireki, :comment, :created_at, :updated_at
+json.url teacher_profile_url(teacher_profile, format: :json)

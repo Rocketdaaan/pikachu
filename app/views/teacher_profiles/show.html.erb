@@ -1,0 +1,54 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Image:</strong>
+  <%= @teacher_profile.image %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @teacher_profile.age %>
+</p>
+
+<p>
+  <strong>From:</strong>
+  <%= @teacher_profile.from %>
+</p>
+
+<p>
+  <strong>Sex:</strong>
+  <%= @teacher_profile.sex %>
+</p>
+
+<p>
+  <strong>Area:</strong>
+  <%= @teacher_profile.area %>
+</p>
+
+<p>
+  <strong>Skill:</strong>
+  <%= @teacher_profile.skill %>
+</p>
+
+<p>
+  <strong>Salary:</strong>
+  <%= @teacher_profile.salary %>
+</p>
+
+<p>
+  <strong>Jisseki:</strong>
+  <%= @teacher_profile.jisseki %>
+</p>
+
+<p>
+  <strong>Keireki:</strong>
+  <%= @teacher_profile.keireki %>
+</p>
+
+<p>
+  <strong>Comment:</strong>
+  <%= @teacher_profile.comment %>
+</p>
+
+<%= link_to 'Edit', edit_teacher_profile_path(@teacher_profile) %> |
+<%= link_to 'Back', teacher_profiles_path %>

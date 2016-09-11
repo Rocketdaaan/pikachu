@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :teacher_profiles
   devise_for :students
   resources :profiles
   resources :reviews
@@ -10,7 +11,7 @@ Rails.application.routes.draw do
   
   root 'home#top'
   get "/students" => "student#index" 
-  get "/teachers" => "teacher#index" 
+  get "/teachers" => "teacher_profiles#index" 
 
   #       post 'toggle'
   #     end
