@@ -1,9 +1,29 @@
 Rails.application.routes.draw do
-
-  resources :users
-  resources :posts
-
-  devise_for :teachers
-
+  
   devise_for :students
+  devise_for :teachers
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  resources :users
+  resources :profiles
+  resources :reviews
+  resources :posts
+  # resources :teachers  
+  root 'home#top' 
+
 end
