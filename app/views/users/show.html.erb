@@ -1,23 +1,43 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>ちんこ:</strong>
-  <%= @user.user_id %>
+  <strong>氏名:</strong>
+  <%= @user.name %>
 </p>
 
 <p>
-  <strong>Password:</strong>
-  <%= @user.password %>
+  <strong>年齢:</strong>
+  <%= @user.age %>
 </p>
 
 <p>
-  <strong>User name:</strong>
-  <%= @user.user_name %>
+  <strong>出身:</strong>
+  <%= @user.area %>
 </p>
 
 <p>
-  <strong>Mail address:</strong>
-  <%= @user.mail_address %>
+  <strong>性別:</strong>
+  <%= @user.sex %>
+</p>
+
+<p>
+  <strong>スキル:</strong>
+  <%= @user.skill %>
+</p>
+
+<p>
+  <strong>給料:</strong>
+  <%= @user.salary %>
+</p>
+
+<p>
+  <strong>経歴:</strong>
+  <%= @user.career %>
+</p>
+
+<p>
+  <strong>ひとこと:</strong>
+  <%= @user.comment %>
 </p>
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
