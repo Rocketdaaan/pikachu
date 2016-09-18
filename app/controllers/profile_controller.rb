@@ -19,10 +19,6 @@ class ProfilesController < ApplicationController
   end
 
 # end
-private
-    def set_post
-      @teacher = profile.find(params[:id])
-    end
 
  def create
    @teacher = profile.new
@@ -36,4 +32,8 @@ private
     @teacher.save
     redirect_to profile_path(@teacher.id)
   end
+private
+    def set_post
+      @teacher = profile.find(params[:id])
+    end
 end
