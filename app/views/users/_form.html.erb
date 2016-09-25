@@ -12,22 +12,42 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :user_id %><br>
-    <%= f.text_field :user_id %>
+    <%= f.label :name, '氏名' %><br>
+    <%= f.text_field :name, :required => true %>
   </div>
   <div class="field">
-    <%= f.label :password %><br>
-    <%= f.text_field :password %>
+    <%= f.label :age, '年齢' %><br>
+    <%= f.text_field :age, :required => true %>
   </div>
   <div class="field">
-    <%= f.label :user_name %><br>
-    <%= f.text_field :user_name %>
+    <%= f.label :area, '出身' %><br>
+    <%= f.text_field :area, :required => true %>
   </div>
   <div class="field">
-    <%= f.label :mail_address %><br>
-    <%= f.text_field :mail_address %>
+    <%= f.label :sex, '性別' %><br>
+    <%= f.text_field :sex, :required => true %>
   </div>
+  <div class="field">
+    <%= f.label :skill, 'スキル' %><br>
+    <%= f.text_field :skill, :required => true %>
+  </div>
+  <div class="field">
+    <%= f.label :salary, '給料' %><br>
+    <%= f.text_field :salary, :required => true %>
+  </div>
+  <div class="field">
+    <%= f.label :career, '経歴' %><br>
+    <%= f.text_field :career, :required => true %>
+  </div>
+  <div class="field">
+    <%= f.label :comment, 'ひとこと' %><br>
+    <%= f.text_field :comment, :required => true %>
+  </div>
+
+
   <div class="actions">
     <%= f.submit %>
   </div>
+
+  <
 <% end %>

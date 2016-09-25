@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Listing Posts</h1>
+<h1>生徒のページ</h1>
 
 <table>
   <thead>
@@ -13,20 +13,40 @@
       <th>Teacher</th>
       <th colspan="3"></th>
     </tr>
-  </thead>
+  </thead> -->
+<h1>全国の家庭教師を探している君たち、NAGAOを通して合格を勝ち取ろう✌️</h1>
+
+<h2>この６人の先生から自分に合うと思う先生を選んでください。</h2>
+
+<div class="container">
+<div class="box">
+  NAGAO （塾長）
+  <%= image_tag 'pikachu１.jpg', :size => '200×200' %>
+</div>
+　　
+<div class="box">MURATA</div>
+   
+<div class="box">SATOU</div>
+   
+<div class="box">OSHIRO</div>
+   
+<div class="box">JINBO</div>
+   
+<div class="box">Pikachu</div>
+   
+</div>
 
   <tbody>
-    <% @posts.each do |post| %>
+    <% @users.each do |user| %>
       <tr>
-        <td><%= post.body %></td>
-        <td><%= post.image %></td>
-        <td><%= post.sex %></td>
-        <td><%= post.skill %></td>
-        <td><%= post.area %></td>
-        <td><%= post.teacher_id %></td>
-        <td><%= link_to 'Show', post %></td>
-        <td><%= link_to 'Edit', edit_post_path(post) %></td>
-        <td><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= user.name %></td>
+        <td><%= user.age %></td>
+        <td><%= user.area %></td>
+        <td><%= user.sex %></td>
+        <td><%= user.skill %></td>
+        <td><%= user.salary %></td>
+        <td><%= user.career %></td>
+        <td><%= user.comment %></td>
       </tr>
     <% end %>
   </tbody>
