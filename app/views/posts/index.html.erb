@@ -37,17 +37,16 @@
 </div>
 
   <tbody>
-    <% @posts.each do |post| %>
+    <% @users.each do |user| %>
       <tr>
-        <td><%= post.body %></td>
-        <td><%= post.image %></td>
-        <td><%= post.sex %></td>
-        <td><%= post.skill %></td>
-        <td><%= post.area %></td>
-        <td><%= post.teacher_id %></td>
-        <td><%= link_to 'Show', post %></td>
-        <td><%= link_to 'Edit', edit_post_path(post) %></td>
-        <td><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= user.name %></td>
+        <td><%= user.age %></td>
+        <td><%= user.area %></td>
+        <td><%= user.sex %></td>
+        <td><%= user.skill %></td>
+        <td><%= user.salary %></td>
+        <td><%= user.career %></td>
+        <td><%= user.comment %></td>
       </tr>
     <% end %>
   </tbody>
