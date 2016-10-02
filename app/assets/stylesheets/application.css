@@ -13,7 +13,7 @@
  *= require_tree .
  *= require_self
  */
-<<<<<<< HEAD
-=======
-
->>>>>>> f81afc272db8e2cb9d36808afd26726fd83d5a23
+ 
+.container{
+	width: 900px;
+}
