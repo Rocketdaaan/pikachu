@@ -3,20 +3,46 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 */
 
-h1,h2{
+.posts_h1{
+	color: pink;
+	text-align: center;
+	font-weight: bold;
+	padding: 200px 0;
+}
+
+h2{
 	text-align: center;
 }
 
 .clearfix{
-	clear: both;;
+	clear: both;
 	content: "";
 	display: block;
 }
 
-.container{
-	width: 900px;
+.main_visual{
+	width: 100%;
+	height: 700px;
+	background-image: url(images.jpeg);
+	background-size: cover;
 	margin: 0 auto;
-	display:inline;
+	position: relative;
+}
+
+.filter{
+	width: 1260px;
+	height: 700px;
+	margin: 30px 10px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: blue;
+	opacity: .1;
+}
+
+.container{
+	width: 1122px;
+	margin: 100px auto;
 }
 
 .box{
@@ -25,10 +51,15 @@ h1,h2{
 		height: 237px;
 	}
 	width: 300px;
-	height: 250px;
-	margin: 23px;
+	height: 500px;
+	margin: 20px 30px;
 	border: 1px solid black;
 	float: left;
-	text-align: center;
 	overflow: hidden;
+}
+
+.box:hover{
+	cursor: pointer;
+	background-color: pink;
+	opacity: .5;
 }

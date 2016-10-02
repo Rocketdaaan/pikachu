@@ -1,3 +1,48 @@
-// Place all the styles related to the users controller here.
+/*// Place all the styles related to the users controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+*/
+
+.users_h1{
+	text-align: center;
+	color: blue;
+	background-color: yellow;
+}
+
+.new_h1{
+	color: blue;
+	background-color: yellow;
+}
+
+.edit_h1{
+	color: blue;
+	background-color: yellow;
+}
+
+th{
+	border: 1px solid black;
+	color: red;
+	font-weight: bold;
+}
+
+td{
+	border: 1px solid;
+}
+
+.data_base{
+	width: 1000px;
+	height: 500px;
+	margin: 0 auto;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.links{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.regist_form{
+	width: 100%;
+	margin: 0 auto;
+}
