@@ -1,63 +1,85 @@
 <p id="notice"><%= notice %></p>
 
-<h1>生徒のページ</h1>
-
-<h1>全国の家庭教師を探している君たち、<br><br>NAGAOを通して合格を勝ち取ろう✌️</h1>
-
-<h2>この６人の先生から自分に合うと思う先生を選んでください。</h2>
+<div class="main_visual">
+  <h1 class="posts_h1">全国の家庭教師を探している君たち<br>NAGAOを通して合格を勝ち取ろう✌️</h1>
+</div>
+<div class="filter">
+</div>
 
 <div class="container clearfix">
+  <h2>この６人の先生から自分に合うと思う先生を選んでください。</h2>
   <div class="box">
     <p>NAGAO （塾長）<p>
     <%= image_tag 'pikachu１.jpg', :size => '150×150' %>
+     <p>年齢：23 </p>
+     <p>出身：千葉県千葉市</p>
+     <p>性別：男</p>     
+     <p>スキル：HTML,CSS,jQuery,PHP,MySQL</p>     
+     <p>給料：40万以上</p>     
+     <p>経歴：高卒</p>     
+     <p>ひとこと：よろしくです </p> 
   </div>
 　　
   <div class="box">
     <p>MURATA<p>
     <%= image_tag 'pikachu２.jpg', :size => '150×150' %>
+    <p>年齢：23 </p>
+     <p>出身：千葉県千葉市</p>
+     <p>性別：男</p>     
+     <p>スキル：HTML,CSS,jQuery,PHP,MySQL</p>     
+     <p>給料：40万以上</p>     
+     <p>経歴：高卒</p>     
+     <p>ひとこと：よろしくです </p> 
   </div>
      
   <div class="box">
     <P>SATOU<p>
     <%= image_tag 'pikachu３.jpg', :size => '150×150' %>
+    <p>年齢：23 </p>
+     <p>出身：千葉県千葉市</p>
+     <p>性別：男</p>     
+     <p>スキル：HTML,CSS,jQuery,PHP,MySQL</p>     
+     <p>給料：40万以上</p>     
+     <p>経歴：高卒</p>     
+     <p>ひとこと：よろしくです </p> 
   </div>
      
   <div class="box">
    <p>OSHIRO<p>
     <%= image_tag 'pikachu４.jpg', :size => '150×150' %>
+    <p>年齢：23 </p>
+     <p>出身：千葉県千葉市</p>
+     <p>性別：男</p>     
+     <p>スキル：HTML,CSS,jQuery,PHP,MySQL</p>     
+     <p>給料：40万以上</p>     
+     <p>経歴：高卒</p>     
+     <p>ひとこと：よろしくです </p> 
   </div>
      
   <div class="box">
     <p>JINBO<p>
     <%= image_tag 'pikachu５.jpg', :size => '150×150' %>
+    <p>年齢：23 </p>
+     <p>出身：千葉県千葉市</p>
+     <p>性別：男</p>     
+     <p>スキル：HTML,CSS,jQuery,PHP,MySQL</p>     
+     <p>給料：40万以上</p>     
+     <p>経歴：高卒</p>     
+     <p>ひとこと：よろしくです </p> 
   </div>
      
   <div class="box">
     <p>Pikachu<p>
     <%= image_tag 'pikachu６.jpg', :size => '150×150' %>
+    <p>年齢：23 </p>
+     <p>出身：千葉県千葉市</p>
+     <p>性別：男</p>     
+     <p>スキル：HTML,CSS,jQuery,PHP,MySQL</p>     
+     <p>給料：40万以上</p>     
+     <p>経歴：高卒</p>     
+     <p>ひとこと：よろしくです </p> 
   </div>
-   
 </div>
 
-    <% @users.each do |user| %>
-      <tr>
-        <td><%= user.name %></td>
-        <td><%= user.age %></td>
-        <td><%= user.area %></td>
-        <td><%= user.sex %></td>
-        <td><%= user.skill %></td>
-        <td><%= user.salary %></td>
-        <td><%= user.career %></td>
-        <td><%= user.comment %></td>
-      </tr>
-    <% end %>
-<<<<<<< HEAD
-=======
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New Post', new_post_path %>
+<br><br>
 <%= link_to "TOPへ戻る", root_path %>
->>>>>>> f81afc272db8e2cb9d36808afd26726fd83d5a23

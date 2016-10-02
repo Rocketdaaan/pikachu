@@ -12,35 +12,35 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :name, '氏名' %><br>
+    <%= f.label :name, '氏名' %><span>（※必須）</span><br>
     <%= f.text_field :name, :required => true %>
   </div>
   <div class="field">
-    <%= f.label :age, '年齢' %><br>
+    <%= f.label :age, '年齢' %><span>（※必須）</span><br>
     <%= f.text_field :age, :required => true %>
   </div>
   <div class="field">
-    <%= f.label :area, '出身' %><br>
+    <%= f.label :area, '出身' %><span>（※必須）</span><br>
     <%= f.text_field :area, :required => true %>
   </div>
   <div class="field">
-    <%= f.label :sex, '性別' %><br>
+    <%= f.label :sex, '性別' %><span>（※必須）</span><br>
     <%= f.text_field :sex, :required => true %>
   </div>
   <div class="field">
-    <%= f.label :skill, 'スキル' %><br>
+    <%= f.label :skill, 'スキル' %><span>（※必須）</span><br>
     <%= f.text_field :skill, :required => true %>
   </div>
   <div class="field">
-    <%= f.label :salary, '給料' %><br>
+    <%= f.label :salary, '給料' %><span>（※必須）</span><br>
     <%= f.text_field :salary, :required => true %>
   </div>
   <div class="field">
-    <%= f.label :career, '経歴' %><br>
+    <%= f.label :career, '経歴' %><span>（※必須）</span><br>
     <%= f.text_field :career, :required => true %>
   </div>
   <div class="field">
-    <%= f.label :comment, 'ひとこと' %><br>
+    <%= f.label :comment, 'ひとこと' %><span>（※必須）</span><br>
     <%= f.text_field :comment, :required => true %>
   </div>
 
@@ -48,6 +48,4 @@
   <div class="actions">
     <%= f.submit %>
   </div>
-
-  <
 <% end %>
