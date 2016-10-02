@@ -81,29 +81,11 @@
   </div>
 </div>
 
-    <% @users.each do |user| %>
-      <tr>
-        <td><%= user.name %></td>
-        <td><%= user.age %></td>
-        <td><%= user.area %></td>
-        <td><%= user.sex %></td>
-        <td><%= user.skill %></td>
-        <td><%= user.salary %></td>
-        <td><%= user.career %></td>
-        <td><%= user.comment %></td>
-      </tr>
-    <% end %>
-
-  </tbody>
-</table>
-
 <br>
 
-<%= link_to 'New Post', new_post_path %>
+
 
 
 
 
 <%= link_to "TOPへ戻る", root_path %>
-
-<br><br>

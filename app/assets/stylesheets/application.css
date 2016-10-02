@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-
-
-.container{
-	width: 900px;
-}
-=======
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -20,8 +13,7 @@
  *= require_tree .
  *= require_self
  */
-<<<<<<< HEAD
-=======
-
->>>>>>> f81afc272db8e2cb9d36808afd26726fd83d5a23
->>>>>>> 068672a5e6f745e5fb32634d84cdf1a921159650
+ 
+.container{
+	width: 900px;
+}
